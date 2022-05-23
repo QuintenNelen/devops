@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: chat
-          image: ghcr.io/quintennelen/mathiasisleerkracht/chat
+          image: ghcr.io/quintennelen/mathiasisleerkracht/chat:latest
           ports:
           - containerPort: 3000
 ---
