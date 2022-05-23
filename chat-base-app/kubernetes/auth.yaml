@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: ghcr.io/quintennelen/mathiasisleerkracht/auth2:latest
+          image: ghcr.io/quintennelen/auth:latest
           ports:
           - containerPort: 3000
 ---
