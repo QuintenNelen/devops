@@ -14,7 +14,7 @@ spec:
       containers:
       - name: nginx
         imagePullPolicy: IfNotPresent
-        image: ghcr.io/quintennelen/mathiasisleerkracht/frontend
+        image: ghcr.io/quintennelen/mathiasisleerkracht/frontend:latest
         ports:
           - containerPort: 80
             name: http-web-svc
